@@ -1,0 +1,7 @@
+mvn archetype:generate -B \
+-DarchetypeRepository=http://artifactory.psdops.com/public/ \
+-DarchetypeGroupId=com.psddev \
+-DarchetypeArtifactId=cms-app-archetype \
+-DarchetypeVersion=3.0-SNAPSHOT \
+-DgroupId=com.accuweather \
+-DartifactId=development
